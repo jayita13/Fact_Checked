@@ -6,5 +6,5 @@ To run application:
 ```
 pip install -r requirements.txt
 
-chainlit run app.py -w
+chainlit run app.py
 ```
