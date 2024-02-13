@@ -9,13 +9,13 @@ import json
 
 vectara_customer_id = os.getenv("VECTARA_CUSTOMER_ID")
 vectara_corpus_id = 2
-vectara_api_key = 'zqt_bs12SqpY0gGE85RVMZPdSW1NSw_d6KpOk8nXJA'
+vectara_api_key = 'zqt_Y3kD9bueJq3QO5t_FISVQLmgTWMDhzgMgK9Isw'
 
 # Input your API keys in .env
 vectara_instance = Vectara(
     vectara_customer_id=os.getenv("VECTARA_CUSTOMER_ID"),
     vectara_corpus_id=2,
-    vectara_api_key='zqt_bs12SqpY0gGE85RVMZPdSW1NSw_d6KpOk8nXJA',
+    vectara_api_key='zqt_Y3kD9bueJq3QO5t_FISVQLmgTWMDhzgMgK9Isw',
 )
 
 config = {
